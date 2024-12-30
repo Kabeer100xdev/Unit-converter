@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="parent-container">
+      <!-- HEADER SECTION -->
+      <div class="header-container">
+        <h1 class="Title">Metric/imperial Unit Conversion</h1>
+        <input
+          class="input-section"
+          type="number"
+          placeholder="0"
+          id="input-el"
+        />
+        <button class="convert-button" id="convert-btn">Convert</button>
+      </div>
+      <!-- INFORMATION SECTION -->
+      <div id="info-container">
+        <!-- Lenght (Meter/Feet) -->
+        <div class="info-cards">
+          <h2>Lenght (Meter/Feet)</h2>
+          <div class="paragraphm-js1" id="length-el"></div>
+        </div>
+        <!-- Volume (Liters/Gallons) -->
+        <div class="info-cards">
+          <h2>Volume (Liters/Gallons)</h2>
+          <div class="paragraphm-js2" id="volume-el"></div>
+        </div>
+        <!-- Mass(Kilogram/Pounds) -->
+        <div class="info-cards">
+          <h2>Mass (Kilogram/Pounds)</h2>
+          <div class="paragraphm-js3" id="mass-el"></div>
+        </div>
+      </div>
+    </div>
+    <!-- This the JS file DO NOT CHANGE! -->
+    <script src="script.js"></script>
+  </body>
+</html>
